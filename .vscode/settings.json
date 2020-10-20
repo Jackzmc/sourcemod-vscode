@@ -1,0 +1,83 @@
+{
+    "sourcepawnLanguageServer.sourcemod_home": "S:\\Jackz\\Documents\\Sourcepawn\\sm_1_8_5914\\include",
+    "task.autoDetect": "off",
+    "task.problemMatchers.neverPrompt": true,
+    "triggerTaskOnSave.tasks": {
+        "Compile Plugin": [
+            "*.sp",
+            "*.inc"
+        ],
+    },
+    "workbench.colorCustomizations": {
+        "editor.foreground": "#FFF",
+        /*"editor.background": "#252525",
+        "sideBar.background": "#252525",
+        "sideBarSectionHeader.background": "#252525",
+        "titleBar.activeBackground": "#252525",
+        "tab.inactiveBackground": "#252525",
+        "tab.activeBackground": "#0F111A",
+        "breadcrumb.background": "#252525",
+        "breadcrumb.foreground": "#FFFF",
+        "tab.inactiveForeground": "#888c89",
+        "sideBar.foreground": "#888c89",
+        "editorLineNumber.foreground": "#888c89"*/
+    },
+    "editor.tokenColorCustomizations": {
+        "functions": "#13b6d3", //#3E8BD5
+        "types": "#68adec",
+        "comments": "#579738",
+        "keywords": "#3E8BD5",
+        "strings": "#E16B62",
+        "textMateRules": [
+            { 
+                "scope": "keyword.control.statement.sourcepawn",
+                "settings": {
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "keyword.sourcepawn",
+                "settings": {
+                    "foreground": "#3E8BD5",
+                    
+                }
+            },
+            {
+                "scope": "support.constant.core.sourcepawn",
+                "settings": {
+                    "foreground": "#BC62B4",
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric.sourcepawn",
+                    "constant.numeric.integer.sourcepawn",
+                    "meta.include.sourcepawn",
+                    "keyword.other.sourcepawn"
+                ],
+                "settings": {
+                    "foreground": "#9e9b9b",
+                }
+            },
+            {
+                "scope": "constant.language.boolean.sourcepawn",
+                "settings": {
+                    "foreground": "#3E8BD5",
+                }
+
+            }
+        ]
+    },
+    "editor.tabCompletion": "on",
+    "discord.enabled": false,
+/*
+    "maptz.regionfolder": {
+        "[sourcepawn]": {
+            "foldEnd": "// #endregion",
+            "foldEndRegex": "//[\\s]*#endregion",
+            "foldStart": "// #region [NAME]",
+            "foldStartRegex": "^[\\s]*\//[\\s]*#region[\\s]*(.*)[\\s]*$"
+        },
+    }
+*/
+}
